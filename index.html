@@ -1,49 +1,234 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Shuleni — Report Card System for Ugandan Schools</title>
-  <meta name="description" content="Shuleni is a one-time purchase report card system for Ugandan schools. Generate, print and manage student report cards with ease." />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://shuleni.site/" />
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shuleni – Report Card Management System for Secondary Schools in Uganda</title>
+  <meta name="description" content="Generate, print, and manage student report cards easily. Shuleni is Uganda’s report card management system for secondary schools. One-time payment, lifetime use.">
+  <meta name="keywords" content="report card system Uganda, report card management system, report card software, secondary school report cards Uganda, shuleni, school report cards, report cards Uganda, student grading software Uganda">
+  <meta property="og:title" content="Shuleni – Report Card Management System for Secondary Schools in Uganda">
+  <meta property="og:description" content="Generate, print, and manage student report cards easily. Shuleni is Uganda’s report card system for secondary schools. One-time payment, lifetime use.">
+  <meta property="og:url" content="https://shuleni.site">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://shuleni.site/">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"Shuleni",
+    "url":"https://shuleni.site",
+    "description":"Shuleni is a report card system for secondary schools in Uganda. Generate, print, and manage student report cards with a one-time purchase.",
+    "applicationCategory":"EducationApplication",
+    "operatingSystem":"Windows, macOS, Linux",
+    "offers":{
+      "@type":"Offer",
+      "price":"200000",
+      "priceCurrency":"UGX",
+      "priceSpecification":"One-time purchase"
+    }
+  }
+  </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html"><img src="logo.png" alt="Shuleni Logo" width="140"></a>
-      <nav class="main-nav">
-        <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+  <header class="site">
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo"><img src="icon.ico" alt=""></div>
+        <div>
+          <div style="font-weight:700">Shuleni</div>
+          <div style="font-size:.8rem;color:var(--muted)">Report Card System • Uganda</div>
+        </div>
+      </div>
+
+      <nav class="primary" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+         <a href="#contact">Contact</a>
+        <a href="about-shuleni.html">About</a>
+        <a href="shuleni-faq.html">FAQs</a>
+       
       </nav>
+
+      <div class="cta-group">
+        <button class="btn btn-outline dont-show" id="nav-demo">Download Demo</button>
+        <a class="btn btn-primary dont-show" href="https://wa.me/message/.CFM245QTP5RNK1">Buy UGX 200,000</a>
+        <button id="mobile-toggle" class="btn btn-outline" aria-expanded="false">Menu</button>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main class="wrap">
     <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Shuleni — Simple Report Card Software for Ugandan Schools</h1>
-          <p class="lead">Shuleni helps schools in Uganda generate and print professional student report cards. Buy once for UGX 200,000 and use forever.</p>
-          <div class="hero-cta">
-            <a class="btn-primary" href="contact.html">Download Demo</a>
-            <a class="btn-ghost" href="features.html">See Features</a>
+      <div class="hero-inner">
+        <div>
+          <span class="pill">Built for Ugandan Secondary Schools</span>
+          <h1>Uganda’s Most Reliable Report Card Management System for Secondary Schools</h1>
+          <p class="lead">Generate, print, and manage student report cards easily — anytime, anywhere. Shuleni helps schools simplify grading, ranking and reporting with a one-time purchase.</p>
+
+          <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1rem">
+            <a class="btn btn-primary" href="https://wa.me/message/.CFM245QTP5RNK1">Buy Now – UGX 200,000</a>
+            <button class="btn btn-outline" id="hero-demo"><a href="#how">See How It Works</a></button>
+            <a class="btn btn-outline" href="Shuleni Reports.exe" download>Download Demo</a>
+          </div>
+          <div class="kpis">
+            <div class="kpi"><strong>One-time Price</strong><span class="muted">UGX 200,000 — Lifetime</span></div>
+            <div class="kpi"><strong>Works Offline</strong><span class="muted">Grade without internet</span></div>
+            <div class="kpi"><strong>PDF Export</strong><span class="muted">Printable report cards with school logo</span></div>
           </div>
         </div>
-        <figure class="hero-image">
-          <img src="hero-preview.png" alt="Shuleni report card dashboard preview" loading="lazy">
-        </figure>
+
+        <div class="screenshot" aria-hidden="true">
+        <img width="100%" src="Shuleni-Uganda-Schools-Report-Card-software.png" alt="Shuleni Report Card Management Software for Ugandan Schools.">
+
+
+
+        </div>
       </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> Shuleni</p>
-    </div>
-  </footer>
-  <script src="script.js" defer></script>
+    <section id="features">
+      <h2>Powerful Features for Ugandan Secondary Schools</h2>
+      <p class="muted">Everything a headteacher or class teacher needs to create accurate, printable report cards.</p>
+
+      <div class="grid features" style="margin-top:1rem">
+        <div class="feature-card">
+          <h3>Auto grading & ranking</h3>
+          <p class="muted">Automatic calculation of totals, averages, ranks and grades.</p>
+        </div>
+        <div class="feature-card">
+          <h3>PDF report cards</h3>
+          <p class="muted">One-click PDF generation with school logo, headteacher's signature area and term dates.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Custom term dates</h3>
+          <p class="muted">Set the "Date when next term begins" once and include it in all reports generated by Shuleni.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Import & Export</h3>
+          <p class="muted">Upload or export student lists and marks via CSV/Excel for easy transfer between systems.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Works offline</h3>
+          <p class="muted">No internet? No problem — generate report cards offline.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Reports & analytics</h3>
+          <p class="muted">See class averages, subject performance and identify students that need support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" style="margin-top:1.2rem">
+      <h2>How the Report Card Management System Works</h2>
+      <div class="two-col" style="margin-top:1rem">
+        <div>
+          <ol>
+            <li><strong>Enter Student Data</strong> — Add names, class and subjects.</li>
+            <li><strong>Input Marks</strong> — Enter CA, EOT and AOI marks per subject.</li>
+            <li><strong>Auto Calculate</strong> — The system computes totals, converts to grades and ranks students.</li>
+            <li><strong>Generate PDF</strong> — Create printable report cards with your logo and custom term dates.</li>
+          </ol>
+
+          <p class="muted">Designed for the New Ugandan secondary school curriculum grading structures.</p>
+
+          <div style="margin-top:1rem">
+            <a class="btn btn-primary" href="https://wa.me/message/.CFM245QTP5RNK1">Get Shuleni</a>
+            <a class="btn btn-outline" href="Shuleni Reports.exe">Download Demo</a>
+          </div>
+        </div>
+
+        <div class="screenshot">
+          <img width="100%" src="Shuleni-Uganda-Olevel-Report-Card-Template.png" alt="Shuleni's Uganda New Curriculum report card template">
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" style="margin-top:1.2rem">
+      <h2>What Schools Are Saying</h2>
+      <div class="grid features" style="margin-top:1rem">
+        <div class="feature-card">
+          <p>“We’ve saved hours every term with Shuleni — report generation is now automatic and accurate.”</p>
+          <p class="muted"><strong>Ms. Nambooze Josephine</strong>, Deputy Headteacher — Hope Comprehensive S.S, Masaka.</p>
+        </div>
+        <div class="feature-card">
+          <p>“Easy to use and works offline. Highly recommended for boarding schools.”</p>
+          <p class="muted"><strong>Ms. Nakkazi Marjoryn</strong>, Deputy Headteacher — Kasagama Secondary School.</p>
+        </div>
+        <div class="feature-card">
+          <p>“One-time fee and lifetime support — best value for our budget. Shuleni Report Card Management System is also 100% offline. This works in our favour, given our rural location.”</p>
+          <p class="muted"><strong>Mrs. Achieng Doreen</strong>, Deputy Headteacher — Kayenje Secondary School.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" style="margin-top:1.2rem">
+      <h2>Simple, One-Time Pricing</h2>
+      <div class="two-col" style="margin-top:1rem">
+        <div>
+          <div class="feature-card">
+            <h3>Lifetime License</h3>
+            <p style="font-size:1.4rem;margin:.4rem 0"><strong>UGX 200,000</strong></p>
+            <p class="muted">One-time payment, free updates and support for life. No subscriptions.</p>
+            <div style="margin-top:1rem">
+              <a class="btn btn-primary" href="https://wa.me/message/.CFM245QTP5RNK1">Buy Now</a>
+              <a class="btn btn-outline" href="tel:+256755120413">Contact Sales</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="feature-card">
+            <h3>Need a School Website?</h3>
+            <p class="muted">We also design beautiful websites for schools.</p>
+            <a class="btn btn-outline" href="https://wa.me/message/.CFM245QTP5RNK1" >Get a School Website</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:1.2rem">
+      <h2>Contact & Support</h2>
+      <div class="grid" style="margin-top:1rem;grid-template-columns:1fr;gap:1rem">
+        <div class="feature-card">
+          <p class="muted">Email: <a href="mailto:shuleni78@gmail.com">shuleni78@gmail.com</a></p>
+          <p class="muted">Phone: <a href="tel:+256772895434">0772 895 434</a></p>
+          <p class="muted">Phone: <a href="tel:+256755120413">0755 120 413</a></p>
+          <p class="muted">Location: Kampala, Uganda</p>
+        </div>
+        <div class="feature-card">
+          <h3>FAQ (quick)</h3>
+          <p><strong>Q:</strong> Can Shuleni import Excel/CSV? <br><strong>A:</strong> Yes — import/export for student lists and marks is supported.</p>
+          <p><strong>Q:</strong> Does it work offline? <br><strong>A:</strong> Yes — Shuleni works offline; you can enter marks, edit, export & import, and generate report cards  without internet access.</p>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap footer-cols">
+        <div>
+          <strong>Shuleni</strong>
+          <p class="muted">Report Card Management System for Secondary Schools in Uganda. One-time payment, lifetime use.</p>
+          <nav style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.6rem">
+            <a href="#features">Features</a>
+            <a href="about-shuleni.html">About</a>
+            <a href="shuleni-faq.html">FAQs</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="muted">© 2025 Shuleni. All rights reserved.</p>
+          <p class="muted">Email: <a href="mailto:shuleni78@gmail.com">shuleni78@gmail.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </main>
+<script src="script.js"></script>
+  
 </body>
 </html>
